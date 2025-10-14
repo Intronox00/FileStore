@@ -32,20 +32,20 @@ PORT = os.environ.get("PORT", "8001")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://orekibots69:orekibots69@cluster0.knzkyc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "hentaiDb")
 #--------------------------------------------
-FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/CodeflixSupport")
+FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "40"))  # 0 means no expiry
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Weebs_Talk_Station")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/zzies1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/t49ft0.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://shortxlinks.com/")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "059ffea5da064d5b55d3bb6ebe6222b663eb2eae")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/c/2187966792/6")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://files.catbox.moe/uynadp.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -80,7 +80,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @HentaiXStation") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• »ʙʏ @HentaiXStation") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
