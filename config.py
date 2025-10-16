@@ -18,19 +18,19 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7796253868:AAELdBl0EnqIf1hzqUX7NIR89jXTAoU6OH8")
-APP_ID = int(os.environ.get("APP_ID", "29547761")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "b67055bfe5d0cab29e31297c453ae9a8") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8217639345:AAHjSxEAgZEmnTYK2rxdk0Gwl7u5EcznKsI")
+APP_ID = int(os.environ.get("APP_ID", "26167510")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "8a7688f8708ea82b2868a0ddf4dc99fe") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002477094584")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002787072719")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "intronox") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "1214348787")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kiyotoprotocol01:kiyotoprotocol01@cluster0.inftpwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "DbFlash")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://orekibots69:orekibots69@cluster0.knzkyc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "HentaiDb")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Weebs_Talk_Station")
@@ -67,7 +67,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /delreq :</b> Rᴇᴍᴏᴠᴇᴅ ʟᴇғᴛᴏᴠᴇʀ ɴᴏɴ-ʀᴇǫᴜᴇsᴛ ᴜsᴇʀs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "»ʙʏ @HentaiXStation</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
