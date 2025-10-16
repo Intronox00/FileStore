@@ -36,8 +36,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Weebs_Talk_Station")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/PGXZ6n49/e56263117eca.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/Tx4YfbkN/e064bda1a4f8.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/zzies1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/t49ft0.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
