@@ -18,26 +18,26 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8217639345:AAHjSxEAgZEmnTYK2rxdk0Gwl7u5EcznKsI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8473395272:AAFVt1RlptCsj3rjnOKmS9RZczAVYUIQzdg")
 APP_ID = int(os.environ.get("APP_ID", "26167510")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "8a7688f8708ea82b2868a0ddf4dc99fe") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002787072719")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003122438272")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "intronox") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "1214348787")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://orekibots69:orekibots69@cluster0.knzkyc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "HentaiDb")
+DB_NAME = os.environ.get("DATABASE_NAME", "Db ackerman")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Weebs_Talk_Station")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/zzies1.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/t49ft0.jpg")
+START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/3q8ssc.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://files.catbox.moe/uxend9.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
